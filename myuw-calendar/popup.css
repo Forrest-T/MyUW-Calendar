@@ -1,0 +1,32 @@
+body {
+    background-color: #e8e3d3;
+    border-radius: 10px;
+    font-size: 14pt;
+    margin: 5px;
+    width: 400px;
+}
+
+h1 {
+    color: #b7a57a;
+    font-size: 25pt;
+    text-align: center;
+}
+
+#content {
+    background-color: #85754d;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+#content > p,ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header {
+    background-color: #4b2e83;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "MyUW Calendar Scraper",
+    "version": "1.0",
+    "description": "Import your schedule to Google Calendar!",
+    "manifest_version": 2,
+    "icons": {
+        "16": "icons/logo16.png",
+        "48": "icons/logo48.png",
+        "128": "icons/logo128.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/logo48.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
