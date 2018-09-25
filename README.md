@@ -38,6 +38,8 @@ Import schedule.ics to your calendar program of choice!
 
 - Automatically remove classes on school holidays. This information is provided through a separate interface, and not included in the first release
 - Include teaching schedules for students that are also TAs
+- Adding the extension to the chrome web store
+- Adding final exam times!
 - ??? (suggestions welcome)
 
 ## Credits
