@@ -1,4 +1,4 @@
-# MyUW Calendar Scraper (Beta)
+# MyUW Calendar Scraper (Beta 1.1)
 
 Are you a UW student? Do you use a calendar program in your daily life? If so, then this might be the extension for you!
 
@@ -34,9 +34,15 @@ Import schedule.ics to your calendar program of choice!
 
 **The current build a Beta build**. I do not have access to the rules of how MyUW handles data, so I can't guarantee that this tool will work for every schedule. I am able to validate that my schedule is correct, but I am only one data point out of thousands. **I need you(!)** to test this extension yourself, and let me know in the issues tab if something unexpected happens.
 
+## Changelog
+- Beta 1.0
+  - Initial Release
+- Beta 1.1
+  - Added Holiday Exclusion
+  - Fixed off-by-one error at the end of the quarter
+
 ## Planned Features
 
-- Automatically remove classes on school holidays. This information is provided through a separate interface, and not included in the first release
 - Include teaching schedules for students that are also TAs
 - Adding the extension to the chrome web store
 - Adding final exam times!
