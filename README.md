@@ -45,7 +45,7 @@ Import schedule.ics to your calendar program of choice!
 ## Credits
 
 - [Forrest Timour](github.com/Forrest-T) (Me): Author
-- [Travis Krause](github.com/nwcell): Created the JavaScript iCal file generator which I graciously borrowed
+- [Travis Krause](https://github.com/nwcell): Created the JavaScript iCal file generator which I graciously borrowed
 
 
 ## License
