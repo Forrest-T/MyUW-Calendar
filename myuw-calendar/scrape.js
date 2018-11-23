@@ -77,10 +77,11 @@ function scraper() {
         let end = new Date(begin.toString());
         end.setHours(sec.meetings[0].end_time.split(':')[0]);
         end.setMinutes(sec.meetings[0].end_time.split(':')[1]);
+        let last_day = new Date(courses.term.last_day_instruction+'T12:00:00-07:00');
         // +1 offset because DTEND is the first date it DOESN't happen,
         // while MyUW reports the last day it DOES happen
-        let last_day = new Date(courses.term.last_day_instruction+1+'T12:00:00-07:00');
-        let last_day_str = toIcalDate(last_day)
+        last_day.setDate(last_day.getDate()+1);
+        let last_day_str = toIcalDate(last_day);
         let rrule_str = 'rrule:FREQ=WEEKLY;UNTIL=' +last_day_str +';INTERVAL=1;' +'BYDAY=';
         for (let i = 0; i < 7; i++) {
             if (sec.meetings[0].meeting_days[days_long[i]] === true) {
