@@ -1,6 +1,7 @@
 {
     "name": "MyUW Calendar Scraper",
-    "version": "Beta-1.2",
+    "version": "1.2",
+    "version_name": "Beta 1.2",
     "description": "Import your schedule to Google Calendar!",
     "manifest_version": 2,
     "icons": {

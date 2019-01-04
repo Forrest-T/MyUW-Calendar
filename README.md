@@ -8,9 +8,13 @@ As the title suggests, this Google Chrome extension will download your course sc
 
 The only prerequisite is the latest version of Google Chrome
 
-## Installing
+## Installing (Now on the Chrome Web Store!)
 
-Download a copy of the repository to a local temporary folder
+Visit the link [here](https://chrome.google.com/webstore/detail/myuw-calendar-scraper/neldjllggkogndhhmnfiohcbmpolpmck) and select ```Add to Chrome```. It should just work!
+
+### Installation (manual)
+
+Download a copy of the repository to a local folder
 
 In the google chrome address bar, navigate to ```chrome://extensions```
 
@@ -18,7 +22,7 @@ Make sure to turn on ```Developer Mode``` in the top right corner
 
 Click ```Load Unpacked``` in the top left corner
 
-Navigate to the temporary folder from earlier and select ```myuw-calendar```
+Navigate to the folder from earlier and select ```myuw-calendar```
 
 ## Usage
 
@@ -43,11 +47,11 @@ Import schedule.ics to your calendar program of choice!
 - Beta 1.2
   - Fixed Holiday Exclusion when calendar is downloaded before the quarter starts
   - Holidays are now "all-day" events
+  - Available from chrome web store!
 
 ## Planned Features
 
 - Include teaching schedules for students that are also TAs
-- Adding the extension to the chrome web store
 - Adding final exam times!
 - ??? (suggestions welcome)
 
