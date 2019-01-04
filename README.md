@@ -40,6 +40,9 @@ Import schedule.ics to your calendar program of choice!
 - Beta 1.1
   - Added Holiday Exclusion
   - Fixed off-by-one error at the end of the quarter
+- Beta 1.2
+  - Fixed Holiday Exclusion when calendar is downloaded before the quarter starts
+  - Holidays are now "all-day" events
 
 ## Planned Features
 
