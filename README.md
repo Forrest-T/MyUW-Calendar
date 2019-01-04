@@ -1,4 +1,4 @@
-# MyUW Calendar Scraper (Beta 1.1)
+# MyUW Calendar Scraper (Beta 1.2)
 
 Are you a UW student? Do you use a calendar program in your daily life? If so, then this might be the extension for you!
 
